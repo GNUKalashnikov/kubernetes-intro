@@ -1,9 +1,8 @@
-#kube
-#minikube
-#install
 # Installing Minikube / Kubernetes
 
-### Pre-requisite 
+## Pre-requisite 
+Install commands are for archlinux only
+
 `pacman -S minikube libvirt qemu dnsmasq iptables-nft`
 
 ## Permission
@@ -16,4 +15,5 @@
 
 ## Final
 `minikube kubectl get svc` and there should be:
-![[Pasted image 20220119095534.png]]
+
+![Image](pictures/result.png)
